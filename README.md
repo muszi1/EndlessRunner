@@ -24,6 +24,12 @@ Welcome to **2D Endless Runner**, a fast-paced and action-packed game built in *
 ![image](https://github.com/user-attachments/assets/02aa64d6-d038-4457-ab78-c43405bc9b99)
 ![image](https://github.com/user-attachments/assets/5091bc27-bcf0-4fe8-be0b-93f4b8870197)
 
+## Assets Used
+The following assets were used for characters and environment design:
+- [Pixel Adventure 2](https://assetstore.unity.com/packages/2d/characters/pixel-adventure-2-155418)
+- [Pixel Adventure 1](https://assetstore.unity.com/packages/2d/characters/pixel-adventure-1-155360)
+- [Sunny Land](https://assetstore.unity.com/packages/2d/characters/sunny-land-103349#content)
+
 ## Acknowledgments
 Special thanks to my mentors, fellow students, and the game development community for their valuable insights and support throughout this project.
 
@@ -31,5 +37,4 @@ Special thanks to my mentors, fellow students, and the game development communit
 **Author:** Balint Muszka  
 **University:** University of Debrecen  
 **Project Type:** Bachelor’s Thesis
-
 
