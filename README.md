@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # 2D Endless Runner
 
 Welcome to **2D Endless Runner**, a fast-paced and action-packed game built in **Unity** as part of my **thesis project** at the **University of Debrecen**. This game features three unique levels and an intense **boss fight**, offering a thrilling experience for players who enjoy platforming challenges.
