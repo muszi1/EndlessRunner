@@ -34,6 +34,7 @@ The following assets were used for characters and environment design:
 The game’s immersive music has been sourced from OpenGameArt:
 - [5 Chiptunes Action](https://opengameart.org/content/5-chiptunes-action)
 - [4 Chiptunes Adventure](https://opengameart.org/content/4-chiptunes-adventure)
+- [SFX](https://mixkit.co/free-sound-effects/game/)
 
 ## Acknowledgments
 Special thanks to my mentors, fellow students, and the game development community for their valuable insights and support throughout this project.
