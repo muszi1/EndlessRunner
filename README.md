@@ -30,6 +30,11 @@ The following assets were used for characters and environment design:
 - [Pixel Adventure 1](https://assetstore.unity.com/packages/2d/characters/pixel-adventure-1-155360)
 - [Sunny Land](https://assetstore.unity.com/packages/2d/characters/sunny-land-103349#content)
 
+## Music & Soundtrack
+The game’s immersive music has been sourced from OpenGameArt:
+- [5 Chiptunes Action](https://opengameart.org/content/5-chiptunes-action)
+- [4 Chiptunes Adventure](https://opengameart.org/content/4-chiptunes-adventure)
+
 ## Acknowledgments
 Special thanks to my mentors, fellow students, and the game development community for their valuable insights and support throughout this project.
 
