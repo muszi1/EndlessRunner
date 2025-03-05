@@ -1,0 +1,383 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1741176031820271, "dur":50, "ph":"X", "name": "IPC_Client_InitializeAndConnectToParent",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1741176031820349, "dur":23781, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1741176031844190, "dur":528, "ph":"X", "name": "BuildQueueInit",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1741176031844737, "dur":4140, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1741176031848879, "dur":5906393, "ph":"X", "name": "WaitForBuildFinished", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1741176037755277, "dur":63, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1741176037755497, "dur":594, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1741176031844264, "dur":4623, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1741176031848889, "dur":6341, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1741176031855232, "dur":1579, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"UnityLinker /home/balint/Desktop/2D+Platformer+-+Complete+Project+Files/2D Platformer/Library/Bee/artifacts/unitylinker_1ofc.traceevents" }}
+,{ "pid":12345, "tid":1, "ts":1741176031856812, "dur":215, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1741176031858143, "dur":94, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/LinuxPlayerBuildProgram/ManagedStripped/Mono.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1741176031858238, "dur":95, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/LinuxPlayerBuildProgram/ManagedStripped/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":1, "ts":1741176031858333, "dur":68, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/LinuxPlayerBuildProgram/ManagedStripped/System.Configuration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1741176031858402, "dur":340, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/LinuxPlayerBuildProgram/ManagedStripped/System.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1741176031858767, "dur":674, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/LinuxPlayerBuildProgram/ManagedStripped/System.Data.dll" }}
+,{ "pid":12345, "tid":1, "ts":1741176031859442, "dur":187, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/LinuxPlayerBuildProgram/ManagedStripped/System.Drawing.dll" }}
+,{ "pid":12345, "tid":1, "ts":1741176031859657, "dur":380, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/LinuxPlayerBuildProgram/ManagedStripped/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":1, "ts":1741176031860040, "dur":1221, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/LinuxPlayerBuildProgram/ManagedStripped/System.Xml.dll" }}
+,{ "pid":12345, "tid":1, "ts":1741176031861262, "dur":911, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/LinuxPlayerBuildProgram/ManagedStripped/System.dll" }}
+,{ "pid":12345, "tid":1, "ts":1741176031862195, "dur":1211, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/LinuxPlayerBuildProgram/ManagedStripped/mscorlib.dll" }}
+,{ "pid":12345, "tid":1, "ts":1741176031863419, "dur":334, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/home/balint/Desktop/2D+Platformer+-+Complete+Project+Files/2D Platformer/Library/PackageCache/com.unity.burst@1.8.7/.Runtime/bcl.exe" }}
+,{ "pid":12345, "tid":1, "ts":1741176031858103, "dur":5651, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"GenerateNativePluginsForAssemblies Library/Bee/artifacts/LinuxPlayerBuildProgram/AsyncPluginsFromLinker" }}
+,{ "pid":12345, "tid":1, "ts":1741176031863866, "dur":5891345, "ph":"X", "name": "GenerateNativePluginsForAssemblies",  "args": { "detail":"Library/Bee/artifacts/LinuxPlayerBuildProgram/AsyncPluginsFromLinker" }}
+,{ "pid":12345, "tid":2, "ts":1741176031844317, "dur":4577, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1741176031848896, "dur":442, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1741176031849466, "dur":3265, "ph":"X", "name": "File",  "args": { "detail":"/home/balint/Unity/Hub/Editor/2023.1.10f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-linux/Commons.Xml.Relaxng.dll" }}
+,{ "pid":12345, "tid":2, "ts":1741176031849338, "dur":3437, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1741176031852775, "dur":2477, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1741176031855374, "dur":392, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/balint/Desktop/build_linux2/EndlessRunner_Data/MonoBleedingEdge/x86_64/libmono-native.so" }}
+,{ "pid":12345, "tid":2, "ts":1741176031855786, "dur":2358, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1741176031858454, "dur":225, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/balint/Desktop/build_linux2/EndlessRunner_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":2, "ts":1741176031858736, "dur":184, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/balint/Desktop/build_linux2/EndlessRunner_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1741176031858956, "dur":57, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1741176031859085, "dur":59, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1741176031859015, "dur":136, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/balint/Desktop/build_linux2/EndlessRunner_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1741176031859200, "dur":98, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/balint/Desktop/build_linux2/EndlessRunner_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1741176031859299, "dur":61, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/LinuxPlayerBuildProgram/ManagedStripped/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":2, "ts":1741176031859298, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/balint/Desktop/build_linux2/EndlessRunner_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":2, "ts":1741176031859365, "dur":61, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1741176031859427, "dur":360, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/balint/Desktop/build_linux2/EndlessRunner_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":2, "ts":1741176031859837, "dur":86, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1741176031859924, "dur":235, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/balint/Desktop/build_linux2/EndlessRunner_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1741176031860285, "dur":66, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1741176031860188, "dur":181, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/balint/Desktop/build_linux2/EndlessRunner_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1741176031860418, "dur":420, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/balint/Desktop/build_linux2/EndlessRunner_Data/Managed/UnityEngine.CommandStateObserverModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1741176031860865, "dur":99, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1741176031861115, "dur":75, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1741176031860966, "dur":232, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/balint/Desktop/build_linux2/EndlessRunner_Data/Managed/UnityEngine.ContentLoadModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1741176031861200, "dur":86, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/LinuxPlayerBuildProgram/ManagedStripped/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1741176031861199, "dur":88, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/balint/Desktop/build_linux2/EndlessRunner_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1741176031861306, "dur":375, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/balint/Desktop/build_linux2/EndlessRunner_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1741176031861682, "dur":5893600, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1741176031844343, "dur":4557, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1741176031849395, "dur":3308, "ph":"X", "name": "File",  "args": { "detail":"/home/balint/Unity/Hub/Editor/2023.1.10f1/Editor/Data/Tools/BuildPipeline/Bee.TinyProfiler2.dll" }}
+,{ "pid":12345, "tid":3, "ts":1741176031848901, "dur":3805, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1741176031852707, "dur":165, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1741176031852872, "dur":2375, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1741176031855256, "dur":134, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /home/balint/Desktop/build_linux2/EndlessRunner_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1741176031855390, "dur":204, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/balint/Desktop/build_linux2/EndlessRunner_Data/Resources/UnityPlayer.png" }}
+,{ "pid":12345, "tid":3, "ts":1741176031855700, "dur":2417, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1741176031858125, "dur":254, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/LinuxPlayerBuildProgram/ManagedStripped/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1741176031858119, "dur":260, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/balint/Desktop/build_linux2/EndlessRunner_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1741176031858673, "dur":103, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1741176031858455, "dur":330, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/balint/Desktop/build_linux2/EndlessRunner_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1741176031858818, "dur":172, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/balint/Desktop/build_linux2/EndlessRunner_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1741176031859033, "dur":163, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/balint/Desktop/build_linux2/EndlessRunner_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1741176031859198, "dur":68, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/LinuxPlayerBuildProgram/ManagedStripped/Unity.2D.Animation.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1741176031859196, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/balint/Desktop/build_linux2/EndlessRunner_Data/Managed/Unity.2D.Animation.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1741176031859316, "dur":215, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/balint/Desktop/build_linux2/EndlessRunner_Data/Managed/Unity.2D.Animation.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1741176031859581, "dur":158, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/balint/Desktop/build_linux2/EndlessRunner_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1741176031859747, "dur":140, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/balint/Desktop/build_linux2/EndlessRunner_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":3, "ts":1741176031859933, "dur":856, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/balint/Desktop/build_linux2/EndlessRunner_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":3, "ts":1741176031860818, "dur":62, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1741176031860882, "dur":193, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/balint/Desktop/build_linux2/EndlessRunner_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1741176031861123, "dur":96, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/balint/Desktop/build_linux2/EndlessRunner_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1741176031861293, "dur":165, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/balint/Desktop/build_linux2/EndlessRunner_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1741176031861460, "dur":103, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/LinuxPlayerBuildProgram/ManagedStripped/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1741176031861459, "dur":105, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/balint/Desktop/build_linux2/EndlessRunner_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1741176031861589, "dur":373, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/balint/Desktop/build_linux2/EndlessRunner_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1741176031861963, "dur":5893303, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1741176031844379, "dur":4527, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1741176031849353, "dur":3263, "ph":"X", "name": "File",  "args": { "detail":"/home/balint/Unity/Hub/Editor/2023.1.10f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-linux/System.Xml.dll" }}
+,{ "pid":12345, "tid":4, "ts":1741176031848908, "dur":4262, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1741176031853170, "dur":2093, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1741176031855293, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/balint/Desktop/build_linux2/EndlessRunner_Data/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1741176031855412, "dur":289, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1741176031855711, "dur":2405, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1741176031858118, "dur":258, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/LinuxPlayerBuildProgram/ManagedStripped/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1741176031858117, "dur":261, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/balint/Desktop/build_linux2/EndlessRunner_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1741176031858455, "dur":266, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/balint/Desktop/build_linux2/EndlessRunner_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1741176031858932, "dur":116, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1741176031858789, "dur":276, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/balint/Desktop/build_linux2/EndlessRunner_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1741176031859099, "dur":54, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1741176031859284, "dur":79, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1741176031859155, "dur":229, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/balint/Desktop/build_linux2/EndlessRunner_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1741176031859454, "dur":148, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/balint/Desktop/build_linux2/EndlessRunner_Data/Managed/Unity.2D.PixelPerfect.dll" }}
+,{ "pid":12345, "tid":4, "ts":1741176031859768, "dur":87, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1741176031859637, "dur":225, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/balint/Desktop/build_linux2/EndlessRunner_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1741176031859864, "dur":61, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/LinuxPlayerBuildProgram/ManagedStripped/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":4, "ts":1741176031859863, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/balint/Desktop/build_linux2/EndlessRunner_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":4, "ts":1741176031859949, "dur":414, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/balint/Desktop/build_linux2/EndlessRunner_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":4, "ts":1741176031860866, "dur":54, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1741176031860412, "dur":515, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/balint/Desktop/build_linux2/EndlessRunner_Data/Managed/Unity.2D.Common.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1741176031860957, "dur":148, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/balint/Desktop/build_linux2/EndlessRunner_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1741176031861124, "dur":310, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/balint/Desktop/build_linux2/EndlessRunner_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1741176031861465, "dur":144, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/balint/Desktop/build_linux2/EndlessRunner_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1741176031861609, "dur":5893666, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1741176031844423, "dur":4490, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1741176031849379, "dur":3234, "ph":"X", "name": "File",  "args": { "detail":"/home/balint/Unity/Hub/Editor/2023.1.10f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-linux/System.Web.Extensions.Design.dll" }}
+,{ "pid":12345, "tid":5, "ts":1741176031848916, "dur":3879, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1741176031852795, "dur":2454, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1741176031855258, "dur":141, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /home/balint/Desktop/build_linux2/EndlessRunner_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":5, "ts":1741176031855451, "dur":208, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1741176031855722, "dur":2442, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1741176031858171, "dur":225, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/LinuxPlayerBuildProgram/ManagedStripped/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1741176031858166, "dur":231, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/balint/Desktop/build_linux2/EndlessRunner_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1741176031858673, "dur":51, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1741176031858505, "dur":232, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/balint/Desktop/build_linux2/EndlessRunner_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1741176031858929, "dur":73, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1741176031858802, "dur":207, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/balint/Desktop/build_linux2/EndlessRunner_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1741176031859089, "dur":130, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/balint/Desktop/build_linux2/EndlessRunner_Data/Managed/Unity.2D.IK.Runtime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1741176031859220, "dur":96, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/LinuxPlayerBuildProgram/ManagedStripped/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":5, "ts":1741176031859220, "dur":97, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/balint/Desktop/build_linux2/EndlessRunner_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":5, "ts":1741176031859324, "dur":79, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1741176031859797, "dur":106, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1741176031859405, "dur":505, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/balint/Desktop/build_linux2/EndlessRunner_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":5, "ts":1741176031859912, "dur":110, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/LinuxPlayerBuildProgram/ManagedStripped/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":5, "ts":1741176031859911, "dur":112, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/balint/Desktop/build_linux2/EndlessRunner_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":5, "ts":1741176031860034, "dur":698, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/balint/Desktop/build_linux2/EndlessRunner_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":5, "ts":1741176031860812, "dur":146, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/balint/Desktop/build_linux2/EndlessRunner_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1741176031861001, "dur":155, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/balint/Desktop/build_linux2/EndlessRunner_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1741176031861200, "dur":115, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/balint/Desktop/build_linux2/EndlessRunner_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1741176031861316, "dur":62, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/LinuxPlayerBuildProgram/ManagedStripped/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1741176031861316, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/balint/Desktop/build_linux2/EndlessRunner_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1741176031861389, "dur":282, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/balint/Desktop/build_linux2/EndlessRunner_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1741176031861671, "dur":5893618, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1741176031844425, "dur":4498, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1741176031849394, "dur":3209, "ph":"X", "name": "File",  "args": { "detail":"/home/balint/Unity/Hub/Editor/2023.1.10f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-linux/System.Runtime.Serialization.Formatters.Soap.dll" }}
+,{ "pid":12345, "tid":6, "ts":1741176031848924, "dur":4236, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1741176031853160, "dur":2091, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1741176031855261, "dur":165, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /home/balint/Desktop/build_linux2/EndlessRunner_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1741176031855481, "dur":273, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1741176031855759, "dur":2343, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1741176031858111, "dur":257, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/LinuxPlayerBuildProgram/ManagedStripped/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":6, "ts":1741176031858105, "dur":264, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/balint/Desktop/build_linux2/EndlessRunner_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":6, "ts":1741176031858454, "dur":314, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/balint/Desktop/build_linux2/EndlessRunner_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":6, "ts":1741176031859045, "dur":60, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1741176031858835, "dur":277, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/balint/Desktop/build_linux2/EndlessRunner_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1741176031859114, "dur":129, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/LinuxPlayerBuildProgram/ManagedStripped/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1741176031859113, "dur":130, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/balint/Desktop/build_linux2/EndlessRunner_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1741176031859304, "dur":510, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/balint/Desktop/build_linux2/EndlessRunner_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1741176031859841, "dur":177, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/balint/Desktop/build_linux2/EndlessRunner_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1741176031860056, "dur":502, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/balint/Desktop/build_linux2/EndlessRunner_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1741176031860560, "dur":77, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/LinuxPlayerBuildProgram/ManagedStripped/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1741176031860559, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/balint/Desktop/build_linux2/EndlessRunner_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1741176031860648, "dur":468, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/balint/Desktop/build_linux2/EndlessRunner_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1741176031861158, "dur":196, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/balint/Desktop/build_linux2/EndlessRunner_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1741176031861393, "dur":126, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/balint/Desktop/build_linux2/EndlessRunner_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1741176031861564, "dur":130, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/balint/Desktop/build_linux2/EndlessRunner_Data/Managed/Unity.2D.Tilemap.Extras.dll" }}
+,{ "pid":12345, "tid":6, "ts":1741176031861695, "dur":5893634, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1741176031844465, "dur":4467, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1741176031849424, "dur":3173, "ph":"X", "name": "File",  "args": { "detail":"/home/balint/Unity/Hub/Editor/2023.1.10f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-linux/System.Management.dll" }}
+,{ "pid":12345, "tid":7, "ts":1741176031848933, "dur":3807, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1741176031852746, "dur":2497, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1741176031855273, "dur":109, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /home/balint/Desktop/build_linux2/EndlessRunner_Data/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1741176031855382, "dur":219, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/balint/Desktop/build_linux2/EndlessRunner_Data/MonoBleedingEdge/x86_64/libmonobdwgc-2.0.so" }}
+,{ "pid":12345, "tid":7, "ts":1741176031855637, "dur":101, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1741176031855749, "dur":2389, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1741176031858141, "dur":296, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/LinuxPlayerBuildProgram/ManagedStripped/UnityEngine.dll" }}
+,{ "pid":12345, "tid":7, "ts":1741176031858140, "dur":298, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/balint/Desktop/build_linux2/EndlessRunner_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":7, "ts":1741176031858491, "dur":391, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/balint/Desktop/build_linux2/EndlessRunner_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":7, "ts":1741176031858884, "dur":65, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/LinuxPlayerBuildProgram/ManagedStripped/Unity.2D.SpriteShape.Runtime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1741176031858883, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/balint/Desktop/build_linux2/EndlessRunner_Data/Managed/Unity.2D.SpriteShape.Runtime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1741176031858957, "dur":72, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1741176031859309, "dur":84, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1741176031859031, "dur":365, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/balint/Desktop/build_linux2/EndlessRunner_Data/Managed/Unity.2D.SpriteShape.Runtime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1741176031859419, "dur":164, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/balint/Desktop/build_linux2/EndlessRunner_Data/Managed/Unity.Collections.LowLevel.ILSupport.dll" }}
+,{ "pid":12345, "tid":7, "ts":1741176031859618, "dur":180, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/balint/Desktop/build_linux2/EndlessRunner_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1741176031859799, "dur":165, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/LinuxPlayerBuildProgram/ManagedStripped/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":7, "ts":1741176031859798, "dur":167, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/balint/Desktop/build_linux2/EndlessRunner_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":7, "ts":1741176031859986, "dur":776, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/balint/Desktop/build_linux2/EndlessRunner_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":7, "ts":1741176031860838, "dur":181, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/balint/Desktop/build_linux2/EndlessRunner_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1741176031861021, "dur":715, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/LinuxPlayerBuildProgram/ManagedStripped/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1741176031861020, "dur":717, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/balint/Desktop/build_linux2/EndlessRunner_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1741176031861747, "dur":2256, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/balint/Desktop/build_linux2/EndlessRunner_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1741176031864004, "dur":5891292, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1741176031844502, "dur":4435, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1741176031849448, "dur":3218, "ph":"X", "name": "File",  "args": { "detail":"/home/balint/Unity/Hub/Editor/2023.1.10f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-linux/System.Configuration.dll" }}
+,{ "pid":12345, "tid":8, "ts":1741176031848939, "dur":3733, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1741176031852673, "dur":229, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1741176031852902, "dur":2330, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1741176031855267, "dur":75, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"WriteText Library/Bee/artifacts/csharpactions/boot.config_16d3.info" }}
+,{ "pid":12345, "tid":8, "ts":1741176031855343, "dur":387, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"AddBootConfigGUID Library/Bee/artifacts/LinuxPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":8, "ts":1741176031855772, "dur":2380, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1741176031858156, "dur":272, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/LinuxPlayerBuildProgram/ManagedStripped/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":8, "ts":1741176031858156, "dur":273, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/balint/Desktop/build_linux2/EndlessRunner_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":8, "ts":1741176031858465, "dur":449, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/balint/Desktop/build_linux2/EndlessRunner_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":8, "ts":1741176031858948, "dur":123, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/balint/Desktop/build_linux2/EndlessRunner_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":8, "ts":1741176031859109, "dur":169, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/balint/Desktop/build_linux2/EndlessRunner_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":8, "ts":1741176031859279, "dur":157, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/LinuxPlayerBuildProgram/ManagedStripped/Unity.Collections.dll" }}
+,{ "pid":12345, "tid":8, "ts":1741176031859278, "dur":158, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/balint/Desktop/build_linux2/EndlessRunner_Data/Managed/Unity.Collections.dll" }}
+,{ "pid":12345, "tid":8, "ts":1741176031859446, "dur":611, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/balint/Desktop/build_linux2/EndlessRunner_Data/Managed/Unity.Collections.dll" }}
+,{ "pid":12345, "tid":8, "ts":1741176031860069, "dur":1632, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/balint/Desktop/build_linux2/EndlessRunner_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":8, "ts":1741176031861702, "dur":5893584, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1741176031844538, "dur":4408, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1741176031849400, "dur":3189, "ph":"X", "name": "File",  "args": { "detail":"/home/balint/Unity/Hub/Editor/2023.1.10f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-linux/Mono.Profiler.Log.dll" }}
+,{ "pid":12345, "tid":9, "ts":1741176031848948, "dur":3824, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1741176031852773, "dur":2467, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1741176031855250, "dur":102, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /home/balint/Desktop/build_linux2/EndlessRunner_Data/sharedassets5.assets" }}
+,{ "pid":12345, "tid":9, "ts":1741176031855364, "dur":69, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1741176031855465, "dur":284, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1741176031855765, "dur":2341, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1741176031858114, "dur":364, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/LinuxPlayerBuildProgram/ManagedStripped/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":9, "ts":1741176031858108, "dur":370, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/balint/Desktop/build_linux2/EndlessRunner_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":9, "ts":1741176031858528, "dur":760, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/balint/Desktop/build_linux2/EndlessRunner_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":9, "ts":1741176031859290, "dur":308, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/LinuxPlayerBuildProgram/ManagedStripped/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":9, "ts":1741176031859289, "dur":309, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/balint/Desktop/build_linux2/EndlessRunner_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":9, "ts":1741176031859623, "dur":1290, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/balint/Desktop/build_linux2/EndlessRunner_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":9, "ts":1741176031860936, "dur":120, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1741176031861058, "dur":123, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/balint/Desktop/build_linux2/EndlessRunner_Data/Managed/Unity.InternalAPIEngineBridge.001.dll" }}
+,{ "pid":12345, "tid":9, "ts":1741176031861182, "dur":64, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/LinuxPlayerBuildProgram/ManagedStripped/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1741176031861181, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/balint/Desktop/build_linux2/EndlessRunner_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1741176031861257, "dur":250, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/balint/Desktop/build_linux2/EndlessRunner_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1741176031861539, "dur":120, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/balint/Desktop/build_linux2/EndlessRunner_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1741176031861659, "dur":5893651, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1741176031844576, "dur":4377, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1741176031849420, "dur":3159, "ph":"X", "name": "File",  "args": { "detail":"/home/balint/Unity/Hub/Editor/2023.1.10f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-linux/I18N.dll" }}
+,{ "pid":12345, "tid":10, "ts":1741176031848955, "dur":3634, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1741176031852589, "dur":572, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1741176031853162, "dur":2072, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1741176031855273, "dur":98, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /home/balint/Desktop/build_linux2/EndlessRunner_Data/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":10, "ts":1741176031855372, "dur":240, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/balint/Desktop/build_linux2/EndlessRunner_Data/MonoBleedingEdge/x86_64/libMonoPosixHelper.so" }}
+,{ "pid":12345, "tid":10, "ts":1741176031855620, "dur":98, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1741176031855741, "dur":2439, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1741176031858181, "dur":258, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/LinuxPlayerBuildProgram/ManagedStripped/UnityEngine.PropertiesModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1741176031858180, "dur":260, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/balint/Desktop/build_linux2/EndlessRunner_Data/Managed/UnityEngine.PropertiesModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1741176031858456, "dur":514, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/balint/Desktop/build_linux2/EndlessRunner_Data/Managed/UnityEngine.PropertiesModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1741176031858971, "dur":141, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/LinuxPlayerBuildProgram/ManagedStripped/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":10, "ts":1741176031858971, "dur":142, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/balint/Desktop/build_linux2/EndlessRunner_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":10, "ts":1741176031859119, "dur":53, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1741176031859802, "dur":69, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1741176031859174, "dur":703, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/balint/Desktop/build_linux2/EndlessRunner_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":10, "ts":1741176031859946, "dur":152, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/balint/Desktop/build_linux2/EndlessRunner_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":10, "ts":1741176031860183, "dur":112, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/balint/Desktop/build_linux2/EndlessRunner_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1741176031860296, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/balint/Desktop/build_linux2/EndlessRunner_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1741176031860374, "dur":213, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/balint/Desktop/build_linux2/EndlessRunner_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1741176031860877, "dur":62, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1741176031860622, "dur":325, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/balint/Desktop/build_linux2/EndlessRunner_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1741176031860948, "dur":82, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/LinuxPlayerBuildProgram/ManagedStripped/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1741176031860947, "dur":83, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/balint/Desktop/build_linux2/EndlessRunner_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1741176031861042, "dur":375, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/balint/Desktop/build_linux2/EndlessRunner_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1741176031861462, "dur":122, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/balint/Desktop/build_linux2/EndlessRunner_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1741176031861585, "dur":5893693, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1741176031844605, "dur":4357, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1741176031849422, "dur":3293, "ph":"X", "name": "File",  "args": { "detail":"/home/balint/Unity/Hub/Editor/2023.1.10f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-linux/Facades/System.ValueTuple.dll" }}
+,{ "pid":12345, "tid":11, "ts":1741176031848964, "dur":4230, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1741176031853194, "dur":2041, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1741176031855267, "dur":61, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /home/balint/Desktop/build_linux2/EndlessRunner_Data/sharedassets5.resource" }}
+,{ "pid":12345, "tid":11, "ts":1741176031855340, "dur":63, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1741176031855435, "dur":184, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1741176031855634, "dur":95, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1741176031855734, "dur":2389, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1741176031858125, "dur":323, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/LinuxPlayerBuildProgram/ManagedStripped/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":11, "ts":1741176031858124, "dur":324, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/balint/Desktop/build_linux2/EndlessRunner_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":11, "ts":1741176031858478, "dur":784, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/balint/Desktop/build_linux2/EndlessRunner_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":11, "ts":1741176031859269, "dur":163, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1741176031859927, "dur":198, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1741176031859433, "dur":720, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/balint/Desktop/build_linux2/EndlessRunner_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":11, "ts":1741176031860155, "dur":103, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/LinuxPlayerBuildProgram/ManagedStripped/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1741176031860154, "dur":104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/balint/Desktop/build_linux2/EndlessRunner_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1741176031860270, "dur":397, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/balint/Desktop/build_linux2/EndlessRunner_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1741176031860669, "dur":672, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/LinuxPlayerBuildProgram/ManagedStripped/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1741176031860667, "dur":675, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/balint/Desktop/build_linux2/EndlessRunner_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1741176031861368, "dur":2263, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/balint/Desktop/build_linux2/EndlessRunner_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1741176031863632, "dur":5891676, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1741176031844622, "dur":4348, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1741176031849417, "dur":3268, "ph":"X", "name": "File",  "args": { "detail":"/home/balint/Unity/Hub/Editor/2023.1.10f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-linux/Facades/System.Security.Cryptography.X509Certificates.dll" }}
+,{ "pid":12345, "tid":12, "ts":1741176031848971, "dur":4177, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1741176031853148, "dur":2106, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1741176031855340, "dur":77, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /home/balint/Desktop/build_linux2/EndlessRunner_Data/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":12, "ts":1741176031855429, "dur":294, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1741176031855728, "dur":2444, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1741176031858178, "dur":379, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/LinuxPlayerBuildProgram/ManagedStripped/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1741176031858174, "dur":384, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/balint/Desktop/build_linux2/EndlessRunner_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1741176031858573, "dur":283, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/balint/Desktop/build_linux2/EndlessRunner_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1741176031859028, "dur":98, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1741176031858918, "dur":217, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/balint/Desktop/build_linux2/EndlessRunner_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1741176031859164, "dur":89, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1741176031859255, "dur":131, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/balint/Desktop/build_linux2/EndlessRunner_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1741176031859422, "dur":518, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1741176031859942, "dur":173, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/balint/Desktop/build_linux2/EndlessRunner_Data/Managed/UnityEngine.GraphToolsFoundationModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1741176031860146, "dur":95, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/balint/Desktop/build_linux2/EndlessRunner_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1741176031860302, "dur":447, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/balint/Desktop/build_linux2/EndlessRunner_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1741176031860776, "dur":53, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1741176031860830, "dur":171, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/balint/Desktop/build_linux2/EndlessRunner_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1741176031861002, "dur":1057, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/LinuxPlayerBuildProgram/ManagedStripped/System.dll" }}
+,{ "pid":12345, "tid":12, "ts":1741176031861002, "dur":1058, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/balint/Desktop/build_linux2/EndlessRunner_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":12, "ts":1741176031862083, "dur":3343, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/balint/Desktop/build_linux2/EndlessRunner_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":12, "ts":1741176031865427, "dur":5889841, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1741176031844650, "dur":4325, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1741176031849437, "dur":3181, "ph":"X", "name": "File",  "args": { "detail":"/home/balint/Unity/Hub/Editor/2023.1.10f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-linux/Facades/System.Security.Claims.dll" }}
+,{ "pid":12345, "tid":13, "ts":1741176031848977, "dur":3690, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1741176031852668, "dur":81, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1741176031852749, "dur":2489, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1741176031855271, "dur":91, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /home/balint/Desktop/build_linux2/EndlessRunner_Data/sharedassets5.assets.resS" }}
+,{ "pid":12345, "tid":13, "ts":1741176031855389, "dur":197, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1741176031855624, "dur":110, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1741176031855738, "dur":2392, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1741176031858132, "dur":648, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/LinuxPlayerBuildProgram/ManagedStripped/System.Core.dll" }}
+,{ "pid":12345, "tid":13, "ts":1741176031858132, "dur":649, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/balint/Desktop/build_linux2/EndlessRunner_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":13, "ts":1741176031858795, "dur":1926, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/balint/Desktop/build_linux2/EndlessRunner_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":13, "ts":1741176031860863, "dur":168, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1741176031860773, "dur":265, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/balint/Desktop/build_linux2/EndlessRunner_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1741176031861040, "dur":1580, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/LinuxPlayerBuildProgram/ManagedStripped/mscorlib.dll" }}
+,{ "pid":12345, "tid":13, "ts":1741176031861039, "dur":1582, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/balint/Desktop/build_linux2/EndlessRunner_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":13, "ts":1741176031862630, "dur":5576, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/balint/Desktop/build_linux2/EndlessRunner_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":13, "ts":1741176031868207, "dur":5887063, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1741176031844676, "dur":4305, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1741176031849430, "dur":3175, "ph":"X", "name": "File",  "args": { "detail":"/home/balint/Unity/Hub/Editor/2023.1.10f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-linux/Facades/System.Runtime.CompilerServices.VisualC.dll" }}
+,{ "pid":12345, "tid":14, "ts":1741176031848982, "dur":3855, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1741176031852837, "dur":2407, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1741176031855309, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/balint/Desktop/build_linux2/EndlessRunner_Data/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":14, "ts":1741176031855380, "dur":195, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1741176031855580, "dur":114, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1741176031855705, "dur":2405, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1741176031858118, "dur":306, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/LinuxPlayerBuildProgram/ManagedStripped/System.Numerics.dll" }}
+,{ "pid":12345, "tid":14, "ts":1741176031858112, "dur":313, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/balint/Desktop/build_linux2/EndlessRunner_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":14, "ts":1741176031858456, "dur":496, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/balint/Desktop/build_linux2/EndlessRunner_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":14, "ts":1741176031858989, "dur":86, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1741176031859218, "dur":128, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1741176031859077, "dur":274, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/balint/Desktop/build_linux2/EndlessRunner_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1741176031859398, "dur":93, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/balint/Desktop/build_linux2/EndlessRunner_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1741176031859550, "dur":177, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/balint/Desktop/build_linux2/EndlessRunner_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1741176031859821, "dur":162, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/balint/Desktop/build_linux2/EndlessRunner_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1741176031860024, "dur":425, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/balint/Desktop/build_linux2/EndlessRunner_Data/Managed/UnityEngine.MarshallingModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1741176031860488, "dur":325, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/balint/Desktop/build_linux2/EndlessRunner_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1741176031860844, "dur":1048, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/balint/Desktop/build_linux2/EndlessRunner_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1741176031861893, "dur":5893408, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1741176031844699, "dur":4288, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1741176031849422, "dur":3228, "ph":"X", "name": "File",  "args": { "detail":"/home/balint/Unity/Hub/Editor/2023.1.10f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-linux/Facades/System.Net.NameResolution.dll" }}
+,{ "pid":12345, "tid":15, "ts":1741176031848988, "dur":3687, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1741176031852675, "dur":519, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1741176031853194, "dur":2064, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1741176031855278, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/balint/Desktop/build_linux2/EndlessRunner_Data/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":15, "ts":1741176031855335, "dur":64, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1741176031855443, "dur":208, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1741176031855663, "dur":95, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/balint/Desktop/build_linux2/EndlessRunner_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":15, "ts":1741176031855778, "dur":2330, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1741176031858110, "dur":370, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/LinuxPlayerBuildProgram/ManagedStripped/System.Security.dll" }}
+,{ "pid":12345, "tid":15, "ts":1741176031858110, "dur":371, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/balint/Desktop/build_linux2/EndlessRunner_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":15, "ts":1741176031859273, "dur":58, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1741176031858519, "dur":818, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/balint/Desktop/build_linux2/EndlessRunner_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":15, "ts":1741176031859361, "dur":53, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1741176031859415, "dur":217, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/balint/Desktop/build_linux2/EndlessRunner_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1741176031859780, "dur":57, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1741176031859659, "dur":185, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/balint/Desktop/build_linux2/EndlessRunner_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1741176031859896, "dur":57, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1741176031859955, "dur":211, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/balint/Desktop/build_linux2/EndlessRunner_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1741176031860200, "dur":124, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/balint/Desktop/build_linux2/EndlessRunner_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1741176031860780, "dur":89, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1741176031860378, "dur":499, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/balint/Desktop/build_linux2/EndlessRunner_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1741176031861022, "dur":59, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1741176031860904, "dur":183, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/balint/Desktop/build_linux2/EndlessRunner_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1741176031861133, "dur":155, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/balint/Desktop/build_linux2/EndlessRunner_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1741176031861314, "dur":4012, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/balint/Desktop/build_linux2/EndlessRunner_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":15, "ts":1741176031865327, "dur":5890015, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1741176031844741, "dur":4253, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1741176031848994, "dur":170, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1741176031849463, "dur":3312, "ph":"X", "name": "File",  "args": { "detail":"/home/balint/Unity/Hub/Editor/2023.1.10f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-linux/Facades/System.Data.Common.dll" }}
+,{ "pid":12345, "tid":16, "ts":1741176031849165, "dur":3686, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1741176031852851, "dur":2391, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1741176031855249, "dur":65, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /home/balint/Desktop/build_linux2/EndlessRunner_Data/sharedassets4.assets.resS" }}
+,{ "pid":12345, "tid":16, "ts":1741176031855347, "dur":299, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1741176031855655, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/balint/Desktop/build_linux2/libdecor-0.so.0" }}
+,{ "pid":12345, "tid":16, "ts":1741176031855753, "dur":2371, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1741176031858131, "dur":1243, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/LinuxPlayerBuildProgram/ManagedStripped/System.Data.dll" }}
+,{ "pid":12345, "tid":16, "ts":1741176031858125, "dur":1250, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/balint/Desktop/build_linux2/EndlessRunner_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":16, "ts":1741176031859443, "dur":3366, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/balint/Desktop/build_linux2/EndlessRunner_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":16, "ts":1741176031862810, "dur":5892481, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1741176037757579, "dur":342, "ph":"X", "name": "ProfilerWriteOutput" }
+,
